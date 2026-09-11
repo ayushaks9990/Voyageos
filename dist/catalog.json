@@ -1,0 +1,536 @@
+[
+  {
+    "id": "bali",
+    "name": "Bali",
+    "country": "Indonesia",
+    "iata": "DPS",
+    "lat": -8.65,
+    "lon": 115.2167,
+    "tagline": "Island time, your way",
+    "description": "Coastlines · temples · slow mornings",
+    "room": 4200,
+    "food": 1500,
+    "transport": 1000,
+    "activity": 1300,
+    "flight": 27000,
+    "image": "/assets/bali.jpg",
+    "image_subject": "Bali",
+    "places": [
+      {
+        "name": "Seminyak Beach",
+        "area": "Seminyak",
+        "category": "beaches",
+        "description": "An easy beach walk with room for a sunset stop."
+      },
+      {
+        "name": "Uluwatu Temple",
+        "area": "Uluwatu",
+        "category": "culture",
+        "description": "Clifftop views; check entry and performance availability."
+      },
+      {
+        "name": "Tegallalang Rice Terrace",
+        "area": "Ubud",
+        "category": "nature",
+        "description": "Take the terraces at your own pace, with a shaded café break."
+      },
+      {
+        "name": "Sacred Monkey Forest Sanctuary",
+        "area": "Ubud",
+        "category": "nature",
+        "description": "A shaded forest visit; follow the sanctuary’s wildlife guidance."
+      },
+      {
+        "name": "Sanur Beach",
+        "area": "Sanur",
+        "category": "beaches",
+        "description": "A gentle waterfront walk and a relaxed lunch."
+      },
+      {
+        "name": "Ayung River",
+        "area": "Ubud",
+        "category": "adventure",
+        "description": "Consider a guided rafting trip; check weather, operator and suitability."
+      },
+      {
+        "name": "Canggu",
+        "area": "Canggu",
+        "category": "nightlife",
+        "description": "Leave the evening open for a restaurant or music venue."
+      },
+      {
+        "name": "Nusa Dua Beach",
+        "area": "Nusa Dua",
+        "category": "beaches",
+        "description": "Unhurried beach time, with an indoor alternative if needed."
+      },
+      {
+        "name": "Ubud Traditional Art Market",
+        "area": "Ubud",
+        "category": "shopping",
+        "description": "Browse craft stalls and take a nearby lunch break."
+      }
+    ],
+    "areas": [
+      "Ubud",
+      "Seminyak",
+      "Sanur"
+    ]
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "country": "India",
+    "iata": "GOI",
+    "lat": 15.4909,
+    "lon": 73.8278,
+    "tagline": "A little sun. A lot of freedom.",
+    "description": "Beaches · cafés · coastal roads",
+    "room": 3000,
+    "food": 1000,
+    "transport": 700,
+    "activity": 700,
+    "flight": 10000,
+    "image": "/assets/bali.jpg",
+    "image_subject": "Travel inspiration",
+    "places": [
+      {
+        "name": "Candolim Beach",
+        "area": "North Goa",
+        "category": "beaches",
+        "description": "A gentle first beach stop."
+      },
+      {
+        "name": "Fort Aguada",
+        "area": "North Goa",
+        "category": "culture",
+        "description": "Explore the fort and ocean views."
+      },
+      {
+        "name": "Anjuna Beach",
+        "area": "North Goa",
+        "category": "nightlife",
+        "description": "Beach cafés and an optional evening out."
+      },
+      {
+        "name": "Basilica of Bom Jesus",
+        "area": "Old Goa",
+        "category": "culture",
+        "description": "Visit the historic church and nearby heritage streets."
+      },
+      {
+        "name": "Fontainhas",
+        "area": "Panaji",
+        "category": "culture",
+        "description": "A walking loop through the colourful quarter."
+      },
+      {
+        "name": "Palolem Beach",
+        "area": "South Goa",
+        "category": "beaches",
+        "description": "A slower day on the south coast."
+      },
+      {
+        "name": "Divar Island",
+        "area": "Divar",
+        "category": "nature",
+        "description": "A leisurely village visit; confirm local transport."
+      }
+    ],
+    "areas": [
+      "Candolim",
+      "Panaji",
+      "Palolem"
+    ]
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "iata": "HND",
+    "lat": 35.6762,
+    "lon": 139.6503,
+    "tagline": "Find your own Tokyo",
+    "description": "Neighbourhoods · food · neon nights",
+    "room": 9000,
+    "food": 3000,
+    "transport": 1300,
+    "activity": 2000,
+    "flight": 50000,
+    "image": "/assets/tokyo.jpg",
+    "image_subject": "Tokyo",
+    "places": [
+      {
+        "name": "Sensō-ji",
+        "area": "Asakusa",
+        "category": "culture",
+        "description": "Temple streets and a relaxed food stop."
+      },
+      {
+        "name": "Ueno Park",
+        "area": "Ueno",
+        "category": "nature",
+        "description": "A park walk with a museum option."
+      },
+      {
+        "name": "Shibuya Crossing",
+        "area": "Shibuya",
+        "category": "nightlife",
+        "description": "Explore the neighbourhood after a café break."
+      },
+      {
+        "name": "Meiji Shrine",
+        "area": "Harajuku",
+        "category": "culture",
+        "description": "A peaceful forest approach to the shrine."
+      },
+      {
+        "name": "Shinjuku Gyoen",
+        "area": "Shinjuku",
+        "category": "nature",
+        "description": "Leave time for gardens; verify opening days."
+      },
+      {
+        "name": "Akihabara",
+        "area": "Akihabara",
+        "category": "shopping",
+        "description": "Explore electronics, games and cafés."
+      },
+      {
+        "name": "Tsukiji Outer Market",
+        "area": "Tsukiji",
+        "category": "food",
+        "description": "Taste your way around the market; check stall opening times."
+      }
+    ],
+    "areas": [
+      "Asakusa",
+      "Shinjuku",
+      "Shibuya"
+    ]
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "iata": "CDG",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "tagline": "Make room for Paris",
+    "description": "Art · neighbourhood walks · café culture",
+    "room": 12000,
+    "food": 3500,
+    "transport": 1600,
+    "activity": 2800,
+    "flight": 60000,
+    "image": "/assets/paris.jpg",
+    "image_subject": "Paris",
+    "places": [
+      {
+        "name": "Eiffel Tower",
+        "area": "7th arrondissement",
+        "category": "culture",
+        "description": "Riverside views; book timed entry separately if desired."
+      },
+      {
+        "name": "Musée d’Orsay",
+        "area": "7th arrondissement",
+        "category": "culture",
+        "description": "Choose a focused museum visit instead of rushing."
+      },
+      {
+        "name": "Louvre Museum",
+        "area": "1st arrondissement",
+        "category": "culture",
+        "description": "Select a few galleries; verify opening days and timed entry."
+      },
+      {
+        "name": "Montmartre",
+        "area": "18th arrondissement",
+        "category": "culture",
+        "description": "A neighbourhood stroll with hills and café breaks."
+      },
+      {
+        "name": "Luxembourg Gardens",
+        "area": "6th arrondissement",
+        "category": "nature",
+        "description": "A slow garden morning."
+      },
+      {
+        "name": "Le Marais",
+        "area": "Le Marais",
+        "category": "food",
+        "description": "Independent shops and a leisurely food stop."
+      },
+      {
+        "name": "Seine",
+        "area": "Central Paris",
+        "category": "nature",
+        "description": "A riverside stroll or optional boat trip."
+      }
+    ],
+    "areas": [
+      "Le Marais",
+      "Saint-Germain-des-Prés",
+      "Latin Quarter"
+    ]
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "iata": "DXB",
+    "lat": 25.2048,
+    "lon": 55.2708,
+    "tagline": "City lights. Desert nights.",
+    "description": "Design · beaches · desert escapes",
+    "room": 6500,
+    "food": 2200,
+    "transport": 1600,
+    "activity": 2200,
+    "flight": 25000,
+    "image": "/assets/hotel.jpg",
+    "image_subject": "Travel inspiration",
+    "places": [
+      {
+        "name": "Burj Khalifa",
+        "area": "Downtown Dubai",
+        "category": "culture",
+        "description": "Book an observation slot separately if desired."
+      },
+      {
+        "name": "Dubai Mall",
+        "area": "Downtown Dubai",
+        "category": "shopping",
+        "description": "An indoor afternoon with plenty of breaks."
+      },
+      {
+        "name": "Al Fahidi Historical Neighbourhood",
+        "area": "Bur Dubai",
+        "category": "culture",
+        "description": "A heritage walk and a café stop."
+      },
+      {
+        "name": "Jumeirah Beach",
+        "area": "Jumeirah",
+        "category": "beaches",
+        "description": "An easy coastal stop; plan around heat."
+      },
+      {
+        "name": "Dubai Marina",
+        "area": "Dubai Marina",
+        "category": "nightlife",
+        "description": "Waterfront dining and an optional evening stroll."
+      },
+      {
+        "name": "Dubai Desert Conservation Reserve",
+        "area": "Desert",
+        "category": "adventure",
+        "description": "Choose a licensed tour and confirm transfers."
+      },
+      {
+        "name": "Dubai Creek",
+        "area": "Bur Dubai",
+        "category": "culture",
+        "description": "A waterside walk and local food."
+      }
+    ],
+    "areas": [
+      "Downtown Dubai",
+      "Dubai Marina",
+      "Bur Dubai"
+    ]
+  },
+  {
+    "id": "bangkok",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "iata": "BKK",
+    "lat": 13.7563,
+    "lon": 100.5018,
+    "tagline": "Follow your curiosity",
+    "description": "Temples · street food · city nights",
+    "room": 3500,
+    "food": 1200,
+    "transport": 900,
+    "activity": 1000,
+    "flight": 20000,
+    "image": "/assets/bali.jpg",
+    "image_subject": "Travel inspiration",
+    "places": [
+      {
+        "name": "Grand Palace",
+        "area": "Phra Nakhon",
+        "category": "culture",
+        "description": "Visit with a relaxed start and appropriate clothing."
+      },
+      {
+        "name": "Wat Pho",
+        "area": "Phra Nakhon",
+        "category": "culture",
+        "description": "Explore the temple complex at an easy pace."
+      },
+      {
+        "name": "Wat Arun",
+        "area": "Riverside",
+        "category": "culture",
+        "description": "A riverside visit; confirm ferry operations."
+      },
+      {
+        "name": "Chatuchak Weekend Market",
+        "area": "Chatuchak",
+        "category": "shopping",
+        "description": "A market visit when open, or a local indoor alternative."
+      },
+      {
+        "name": "Lumphini Park",
+        "area": "Silom",
+        "category": "nature",
+        "description": "A shaded morning walk."
+      },
+      {
+        "name": "Yaowarat Road",
+        "area": "Chinatown",
+        "category": "food",
+        "description": "A street-food evening with flexible stops."
+      },
+      {
+        "name": "Chao Phraya River",
+        "area": "Riverside",
+        "category": "nature",
+        "description": "Consider a river journey with rest breaks."
+      }
+    ],
+    "areas": [
+      "Riverside",
+      "Sukhumvit",
+      "Silom"
+    ]
+  },
+  {
+    "id": "manali",
+    "name": "Manali",
+    "country": "India",
+    "iata": "KUU",
+    "lat": 32.2432,
+    "lon": 77.1892,
+    "tagline": "Take the scenic route",
+    "description": "Mountains · cafés · valley walks",
+    "room": 2500,
+    "food": 900,
+    "transport": 1400,
+    "activity": 800,
+    "flight": 14000,
+    "image": "/assets/terraces.jpg",
+    "image_subject": "Travel inspiration",
+    "places": [
+      {
+        "name": "Hadimba Devi Temple",
+        "area": "Manali",
+        "category": "culture",
+        "description": "A forest temple visit and a gentle walk."
+      },
+      {
+        "name": "Old Manali",
+        "area": "Manali",
+        "category": "food",
+        "description": "Cafés and an easy neighbourhood stroll."
+      },
+      {
+        "name": "Solang Valley",
+        "area": "Solang",
+        "category": "adventure",
+        "description": "Check road, weather and activity conditions before travelling."
+      },
+      {
+        "name": "Vashisht",
+        "area": "Manali",
+        "category": "culture",
+        "description": "A village visit with time to rest."
+      },
+      {
+        "name": "Van Vihar",
+        "area": "Manali",
+        "category": "nature",
+        "description": "A short shaded walk near town."
+      },
+      {
+        "name": "Naggar Castle",
+        "area": "Naggar",
+        "category": "culture",
+        "description": "A heritage outing, subject to access and weather."
+      }
+    ],
+    "areas": [
+      "Old Manali",
+      "Mall Road",
+      "Naggar"
+    ]
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "iata": "SIN",
+    "lat": 1.3521,
+    "lon": 103.8198,
+    "tagline": "A city full of possibilities",
+    "description": "Gardens · food · waterfronts",
+    "room": 8500,
+    "food": 2500,
+    "transport": 1200,
+    "activity": 2500,
+    "flight": 28000,
+    "image": "/assets/tokyo.jpg",
+    "image_subject": "Travel inspiration",
+    "places": [
+      {
+        "name": "Gardens by the Bay",
+        "area": "Marina Bay",
+        "category": "nature",
+        "description": "Choose gardens and attractions within your budget."
+      },
+      {
+        "name": "Marina Bay",
+        "area": "Marina Bay",
+        "category": "nightlife",
+        "description": "A waterfront walk and an optional evening out."
+      },
+      {
+        "name": "Singapore Botanic Gardens",
+        "area": "Tanglin",
+        "category": "nature",
+        "description": "A green morning with shaded breaks."
+      },
+      {
+        "name": "Chinatown, Singapore",
+        "area": "Chinatown",
+        "category": "food",
+        "description": "Neighbourhood food and heritage stops."
+      },
+      {
+        "name": "Sentosa",
+        "area": "Sentosa",
+        "category": "beaches",
+        "description": "A relaxed island day; ticketed activities are optional."
+      },
+      {
+        "name": "Little India, Singapore",
+        "area": "Little India",
+        "category": "culture",
+        "description": "Explore streets, shops and food at your own pace."
+      },
+      {
+        "name": "Kampong Glam",
+        "area": "Kampong Glam",
+        "category": "culture",
+        "description": "A compact neighbourhood walk."
+      }
+    ],
+    "areas": [
+      "Bugis",
+      "Chinatown",
+      "Orchard"
+    ]
+  }
+]

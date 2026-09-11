@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090c12">
+  <meta name="description" content="Turn one travel idea into a thoughtful itinerary, clear budget and a trip that moves at your pace. VoyageOS AI travel workspace.">
+  <title>VoyageOS AI — Your travel workspace</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/upgrade.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside id="sidebar" class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#studio" aria-label="VoyageOS home"><span class="brand-symbol">V<span>↗</span></span><span>voyage<span class="brand-os">OS</span><small>TRAVEL WORKSPACE</small></span></a>
+    <div class="sidebar-label">WORKSPACE</div>
+    <nav id="nav"></nav>
+    <div class="sidebar-journey"><div class="orbit-icon">✦</div><p>A little less planning.<br>A lot more possibility.</p><span>Make the journey yours.</span></div>
+    <button id="sidebar-account" class="sidebar-bottom account-trigger"><div class="avatar">YOU</div><div><strong>Your travel space</strong><small>Sign in to sync trips</small></div></button>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><div class="breadcrumbs"><span class="mobile-brand">voyageOS</span><span id="breadcrumb">Workspace <span>/</span> Trip studio</span></div><div class="topbar-right"><span class="connection" id="connection">Checking planner…</span><button id="account-btn" class="account-pill"><span class="top-avatar" aria-hidden="true">V</span><span id="account-label">Sign in</span></button></div></header>
+    <main id="main" tabindex="-1"><div class="initial-loading"><span class="spinner"></span>Opening your travel workspace…</div></main>
+    <footer class="footer"><span>Made for the way you want to travel.</span><button id="credits-btn" class="text-button">Photo credits & data</button><span>VoyageOS / 01</span></footer>
+  </div>
+  <dialog id="details-dialog" class="dialog"><form id="details-form"><div class="dialog-head"><div><span class="eyebrow">MAKE IT YOURS</span><h2>Trip details</h2></div><button type="button" class="icon-button" data-close="details-dialog" aria-label="Close">✕</button></div><p class="muted">These fields override your written request.</p><div id="detail-fields" class="form-grid"></div><button class="button yellow full" type="submit">Apply details <span>↗</span></button></form></dialog>
+  <dialog id="auth-dialog" class="dialog auth-dialog"><div class="dialog-head"><div><span class="eyebrow">YOUR TRIPS, EVERYWHERE</span><h2 id="auth-title">Welcome back</h2></div><button type="button" class="icon-button" data-close="auth-dialog" aria-label="Close">✕</button></div><div id="auth-content"></div></dialog>
+  <dialog id="credits-dialog" class="dialog"><div class="dialog-head"><h2>Photo credits & data</h2><button type="button" class="icon-button" data-close="credits-dialog" aria-label="Close">✕</button></div><div id="credits-content"></div></dialog>
+  <dialog id="delete-dialog" class="dialog compact-dialog"><h2>Delete this saved trip?</h2><p>This removes the copy stored in this browser.</p><div class="dialog-actions"><button class="button secondary" data-close="delete-dialog">Keep trip</button><button class="button danger" id="confirm-delete">Delete trip</button></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p>Please enable JavaScript to use the travel planner.</p></noscript>
+</body>
+</html>

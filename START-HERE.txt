@@ -1,0 +1,32 @@
+VOYAGEOS AI
+==========
+
+1. Extract this ZIP completely.
+2. Open the VoyageOS-AI folder in VS Code.
+3. Open README.md for full setup and Render instructions.
+
+WINDOWS QUICK START (run in the folder with requirements.txt):
+
+py -3.11 -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
+.venv\Scripts\python.exe -m uvicorn backend.main:app --reload --port 8000
+
+Open http://localhost:8000
+
+Set AUTH_SECRET to a long random value. Add GROQ_API_KEY and restart for full AI features.
+The seven built-in planning agents, accounts and trip saves work without travel API keys.
+
+RENDER:
+Push the project contents to your own GitHub repository.
+Render -> New -> Blueprint -> select the repository -> Deploy.
+Add GROQ_API_KEY in the service's Environment page and redeploy.
+The Blueprint generates AUTH_SECRET automatically.
+
+Frontend + backend use ONE Python web service and ONE URL.
+Do not deploy dist/ alone if you want backend AI features.
+
+Prices are estimates unless an external provider explicitly supplies a quote.
+The app links to providers; it does not make bookings or payments.
+For account data that must survive every Render redeploy, attach a persistent disk
+at /var/data and set DATA_DIR=/var/data.
