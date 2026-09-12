@@ -27,7 +27,7 @@
 
 ## Start with one sentence
 
-> Plan a 6-day Bali trip for 2 people from Kolkata in December. Budget ₹1.4 lakh. We like beaches, nightlife, adventure and good hotels. Don't make the schedule exhausting.
+> Plan a 6-day Switzerland trip for 2 people from Mumbai in December. Budget ₹4.2 lakh. We like beaches, nightlife, adventure and good hotels. Don't make the schedule exhausting.
 
 VoyageOS launches seven focused agents for intent, route, stays, mobility, itinerary, budget and final critique. They compare travel modes, group sights by area, protect downtime, rank options and expose every estimate. Edit the details to regenerate, save the trip to an account, export JSON or print a clean PDF, and ask the copilot for advice.
 
