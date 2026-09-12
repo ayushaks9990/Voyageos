@@ -1,15 +1,25 @@
 <div align="center">
 
-# VoyageOS AI
-### Multi-agent, end-to-end vacation planning & your travel copilot
+# ✈️ VoyageOS AI
+### Autonomous Multi-Agent Vacation Planner & Travel Copilot
 
-**FastAPI · Groq · Python 3.11+ · Responsive frontend · Render**
+**From one travel idea to a complete, intelligent journey.**
 
-### 🌐 [Live Demo — VoyageOS AI](https://voyageos-ai.onrender.com/)
+[![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-Launch_VoyageOS-FFD60A?style=for-the-badge)](https://voyageos-ai.onrender.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![AI](https://img.shields.io/badge/AI-Multi--Agent-2563EB?style=for-the-badge)](#)
+[![Render](https://img.shields.io/badge/Render-Deployed-000000?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
+
+<br/>
+
+**FastAPI · Groq · Multi-Agent AI · Google Places · Amadeus · Python · Render**
+### 🚀 [Open VoyageOS AI →](https://voyageos-ai.onrender.com/)
 
 </div>
 
-One travel idea becomes ranked flight, rail, stay and cab options, a day-by-day itinerary, a transparent budget and a saved journey.
+---
+
+> **VoyageOS AI** transforms a simple travel request into ranked transportation and stay options, a personalized day-by-day itinerary, budget breakdown, destination intelligence, and an AI travel copilot — all through one unified experience.
 
 ![Bali coastline](dist/assets/bali.jpg)
 
