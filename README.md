@@ -1,10 +1,13 @@
 <div align="center">
 
 # VoyageOS AI
-
 ### Multi-agent, end-to-end vacation planning & your travel copilot
 
 **FastAPI · Groq · Python 3.11+ · Responsive frontend · Render**
+
+### 🌐 [Live Demo — VoyageOS AI](https://voyageos-ai.onrender.com/)
+
+</div>
 
 One travel idea becomes ranked flight, rail, stay and cab options, a day-by-day itinerary, a transparent budget and a saved journey.
 
